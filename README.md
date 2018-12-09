@@ -1,15 +1,15 @@
-#MongoDB Charts
+# MongoDB Charts
 
-##Setup the Datasets
+## Setup the Datasets
 
 Download the [airbnb dataset](https://github.com/mongodb/charts-demo/airbnb) and import it into your MongoDB Atlas
 cluster. Have a look at the [command line tools](https://docs.atlas.mongodb.com/command-line-tools/)
 for directions on how to use `mongoimport` with MongoDB Atlas. The included
 dataset is sized to be able to fit into a free M0 cluster on MongoDB Atlas.
 
-##Analysing Airbnb Data
+## Analysing Airbnb Data
 
-###Add a Data Source
+### Add a Data Source
 1. With a dataset in place, you'll want to enable Charts for your project. 
 2. Select the _Charts_ link on the left-hand side, then select the 
 _Activate MongoDB Charts_ button.
@@ -18,15 +18,15 @@ collection. For this example, I'll use the `sanFranciscoListingsAndReviews`
 collection. Then I'll accept the default permissions.
 
 
-###Create a Dashboard
+### Create a Dashboard
 1. Go to the *Dashboards* tab
 2. Click *New Dashboard*
 3. Enter a name and description
 
-###Add Some Charts
+### Add Some Charts
 Inside the MongoDB Charts dashboard, you'll now add a chart to the dashboard.
 
-####Multi-Series Stacked Bar Chart
+#### Multi-Series Stacked Bar Chart
 
 Let's locate the neighborhoods in San Francisco that have the most Airbnb
 properties and split them out by property type.
