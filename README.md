@@ -2,7 +2,7 @@
 
 ## Setup the Datasets
 
-Download the [airbnb dataset](https://github.com/mongodb/charts-demo/airbnb) and import it into your MongoDB Atlas
+Download the [airbnb dataset](https://webassets.mongodb.com/_com_assets/cms/airbnb-sf-5uzx3cjqff.zip) and import it into your MongoDB Atlas
 cluster. Have a look at the [command line tools](https://docs.atlas.mongodb.com/command-line-tools/)
 for directions on how to use `mongoimport` with MongoDB Atlas. The included
 dataset is sized to be able to fit into a free M0 cluster on MongoDB Atlas.
